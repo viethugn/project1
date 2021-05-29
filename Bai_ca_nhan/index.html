@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovery</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="webstyle.css"> 
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"> -->
+   
+</head>
+<body data-spy="scroll" data-target="#main" data-offset="100" >
+  <!-- menu -->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container menu">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand nav-link"  class="active"  href="#1home">Discovery</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right" id="main">
+            <li class="nav-item"><a href="#1home" class="nav-link" >Home <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a href="#1human" class="nav-link">Human</a></li>
+            <li class="nav-item" class="dropdown" >
+              <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Latest Posts <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#1latestPosts" class="nav-link">Coolest Fast</a></li>
+                <li><a href="#1conten" class="nav-link"> HABITATS</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#1latestPosts" class="nav-link"> MOTORING</a></li>
+              
+              </ul>
+            </li>
+            <li class="nav-item" class="dropdown">
+              <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#1aboutus"  class="nav-link"> Careers</a></li>
+                <li><a href="#1aboutus"  class="nav-link">Contact</a></li>
+                <li><a href="#1aboutus"  class="nav-link">News & Press</a></li>
+                <li role="separator" class="divider"  class="nav-link"></li>
+                <li><a href="#1aboutus"  class="nav-link">Help</a></li>
+              </ul>
+            </li>
+            <li class="navbar-btn" >
+              <a  href="#1singup" class="button nav-link" id="signup" style="text-align: center;">Sign up</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- /// home //// -->
+
+    <section class="section-padding">
+    <div class="container-fluid"id="1home">
+
+        <section>
+            <!-- tạo ra 1 cột tương ứng vs 12 cột nằm trên 1 hàng 
+                .container>.row>.col-md-12
+            -->
+            <div class="container">
+                <div class="row">
+                    <div class="con-md-12">
+                        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                                <li data-target="#carousel-id" data-slide-to="2" class=""></li>
+                                <li data-target="#carousel-id" data-slide-to="3" class=""></li>                                           
+                                <li data-target="#carousel-id" data-slide-to="4" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item" style="background-color: aqua;">
+                                    <img  alt="First slide" src="banner1.2.jpg">
+                                    <div class="container">
+                                      <div class="carousel-caption">
+                                          <h1 class="caption-h1">MOUNTAINS AS OUR PLANET’S WATER TOWERS</h1>
+                                          <!-- <p class="carousel-subtitle" style=" color: #f76a37;">Understanding and safeguarding our planet's critical life support systems</p> -->
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="item" style="background-color: rgb(225, 253, 65);">
+                                    <img  alt="Second slide" src="banner2.jpg">
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                            <h1 class="caption-h1">PERPETUAL PLANET</h1>
+                                            <p class="carousel-subtitle" style=" color: #f3ca12;">Understanding and safeguarding our planet's critical life support systems</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item" style="background-color: rgb(250, 0, 0);">
+                                    <img  alt="First slide" src="banner3.jpg">
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                           <p class="carousel-subtitle first">New Series </p>
+                                           <h1 class="caption-h1">Naked and Afraid</h1>
+                                           <p class="carousel-subtitle">Thurday</p>
+                                           <p class="carousel-subtitle">20th May</p>
+                                           <p class="carousel-subtitle blocked">"10pm"</p>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="item" style="background-color: rgb(93, 75, 255);">
+                                    <img  alt="Second slide" src="banner5.2.jpg">
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                            <h1 >Earth’s oceans</h1>
+                                            <p class="carousel-subtitle" style=" color: #2fd5ff;">Earth’s oceans cover an estimated 70 percent of the planet, but their depths remain more foreign to us than the surface of the Moon</p>
+                                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="item active" style="background-color: #E29539;">
+                                    <img  alt="Second slide" src="banner7.jpg">
+                                    <div class="container">
+                                        <div class="carousel-caption">
+                                            <p class="carousel-subtitle" style=" color: #fc4362;">Start your 7-day free trial</p>
+                                            <h1 class="caption-h1">Introducing discovery+</h1>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <span id="1human"></span>
+        <section >
+            <div class="container "  style="background-color: #222222;">
+                <div class="row banner">
+                  <div class="shows-a-z__header row align-items-center">
+                      <div class="col col-md-8">
+                          <h2 class="mb-0" >Human Interaction</h2>
+                      </div>
+                      <div class="col col-md-3">
+                          <div class="shows-a-z__view-all h4 mb-0 text-right">
+                              <a href="">View All</a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- col-xs-12 col-sm-6 col-md-4*3 -->
+                  <div class="row align-items-center padding">
+                    <div class="col-xs-12 col-sm col-md-4">
+                      <div class="hover hover-1 text-white rounded">
+                        <img src="34949_ep103_005.jpg" alt="">
+                        <div class="hover-overlay"></div>
+                        <div id="tieude" class="hover-1-noidung px-5 py-4">
+                          <h3 class="hover-1-tieude text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">About</span><span style="color:white; font-weight: 700;" > Project Grizzly </span> </h3>
+                          <p class="hover-1-trichdan font-weight-light mb-0"> Project Grizzly, a six-part docu-series, follows bear trainer Jeff Watson and his two rescued bears, Bob and Screech, as Watson attempts to return them to the wild where they belong.</p>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col-4 mb-3 mb-lg-0"></div>
+                      <!-- ////////////////////////////// -->
+                      <div class="col-xs-12 col-sm col-md-4">
+                        <div class="hover hover-1 text-white rounded">
+                          <img src="img2.jpg" alt="" class="img-fluid">
+                          <div class="hover-overlay"></div>
+                          <div id="tieude" class="hover-1-noidung px-5 py-4">
+                            <h3 class="hover-1-tieude text-uppercase font-weight-bold mb-0"> <span class="font-weight-light"> About </span><span style="color:white; font-weight: 700;" >the Bronx Zoo</span> </h3>
+                            <p class="hover-1-trichdan font-weight-light mb-0">Now in its fourth season, THE ZOO continues to provide viewers an exclusive behind-the-scenes look at the animals, staff and day-to-day operations of the world-famous Bronx Zoo and the four other Wildlife Conservation Society parks in New York City. </p>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="col-4 mb-3 mb-lg-0"></div>
+                        <!-- //////////////////////////////////// -->
+                        
+                        <div  class="col col-xs-12 col-md-4 " >
+                          <div class="hover hover-1 text-white rounded">
+                              <img src="img3.jpg" alt="" >
+                            <div class="hover-overlay"></div>
+                            <div id="tieude" class="hover-1-noidung px-5 py-4">
+                              <h3 class="hover-1-tieude text-uppercase font-weight-bold mb-0" > <span class="font-weight-light">About</span> <span style="color:white; font-weight: 700;" > The Show</span> </h3>
+                              <p class="hover-1-trichdan font-weight-light mb-0"> Filmed over an eight-month period, The Zoo takes audiences behind the scenes of the world-renowned Bronx Zoo.</p>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="col-4 mb-3 mb-lg-0"></div>
+  
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </section>
+        </section>
+    </div>
+    <hr id="hr">
+    <section class="section-padding">
+    <span id="1latestPosts"></span>
+    <main >
+
+        <div class="album py-5 bg-light">
+          <div class="container card-group" style="background-color:#222222;">
+            <div id="idrow" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              
+              <div class="col">
+                <div class="card shadow-sm">  
+                  <img src="./picture/ABP-S5-740x416.jpg" alt="" class="img-fluid">
+      
+                  <div class="card-body">
+                    <h3 class="card-text">The Coolest Fast and Furious Cars</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="./picture/cropped-4e1d7d7e-2343-4f58-abf2-a9ac71e1c692-ChaosCaughtOnCamera_16x9.jpg" alt="" class="img-fluid">
+                  <div class="card-body">
+                    <h3 class="card-text">The Coolest Fast and Furious Cars</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="./picture/DCUK_Website-Key-Art_Moonshiners-1-740x416.jpg" alt="" class="img-fluid">
+                  <div class="card-body">
+                    <h3 class="card-text">The Coolest Fast and Furious Cars</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="./picture/cropped-9e31acd1-af3d-4690-97d8-b4c5be5c3bd7-fast-n-loud-key-art-2014-v3-740x640.jpg" alt="" class="img-fluid">
+                  <div class="card-body">
+                    <h3 class="card-text">The Coolest Fast and Furious Cars</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="./picture/GettyImages-1058055534-740x640.jpg" alt="" class="img-fluid">
+                  <div class="card-body">
+                    <h3 class="card-text">The Coolest Fast and Furious Cars</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="./picture/GettyImages.jpg" alt="" class="img-fluid">
+                  <div class="card-body">
+                    <h3 class="card-text">The Coolest Fast and Furious Cars</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm ">
+                  <img src="./picture/iStock-458676693-740x640.jpg" alt="" class="img-fluid">
+                  <div class="card-body">
+                    <h3 class="card-text">Today’s Runarounds, Classics</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="./picture/StreetOutlaws_S006_16x9-740x416.jpg" alt="" class="img-fluid">
+                  <div class="card-body">
+                    <h3 class="card-text">The Coolest Fast and Furious Cars</h3>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- Card colum nội dung -->
+      </main>
+    </section>
+
+      <section id="1conten" class="section-padding">
+        <div class="container content">
+          <div class="row " style="background-color: #222222;">
+            <h2 class="hdr-primary hdr-primary-dark-pattern"><span>Habitats</span></h2>
+          </div>
+          <div class="card-columns">
+           
+            <div class="card video-fluid">
+              <iframe src="https://www.youtube.com/embed/VzdimdHwbVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              <div class="card-body">
+                <h5 class="card-title">WWF Report: More Than 2/3 of Animal Population Lost in 50 Years</h5>
+                <p class="card-text text">“One of the things that science has told us in the last decade so 
+                  clearly is that we depend on intact natural systems and intact natural ecosystems, 
+                  in all its component parts, to deliver those things we count on every day: clean air, 
+                  clean water, pollination, a stable climate, food, healthy soils to produce the foods we eat,” 
+                  Shaw said. “And what this index tells you is a very important component of that health is 
+                  declining and declining fast.”
+                </p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <blockquote class="blockquote mb-0 card-body">
+                <h5 class="card-title">Wildlife - Just One Piece of the Picture</h5>
+                <p>In another example, let's assume all the dead hollow trees are removed from a forest ecosystem. Cavity nesting animals such as bluebirds, nuthatch, wrens, screech owls, squirrels and woodpeckers have very little, if any, shelter available. The number of animals of this type would be reduced. Insect populations could increase because of fewer insect eating birds and trees and other plants could be negatively affected. The whole ecosystem is affected.</p>
+                <footer class="blockquote-footer footer_col">
+                  <!-- <small class="text-muted">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer> -->
+              </blockquote>
+            </div>
+            <div class="card video-fluid">
+              <iframe src="https://www.youtube.com/embed/mwC-7sjHas0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">WWF report warns annihilation of wildlife threatens civilisation</h5>
+                <p class="card-text text">The 2018 Living Planet report from the WWF has found that a shocking 60% of the earth's  mammals, birds, fish and reptiles have been lost  since 1970.  The findings have led the world’s foremost experts to warn that the annihilation of wildlife is now an emergency that threatens civilisation. </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card text-center p-3">
+              <blockquote class="blockquote mb-0 text card-body">
+                <h5 class="card-title">Wildlife Populations</h5>
+                <p>Populations are all the members of a species that live in a one area. You are part of the human population for your home town. A freshwater pond has multiple populations, including a population of mallard ducks, and a population of cattail plants growing on the edge.
+                  All of the populations that live and interact with each other in one area make of the community of that area. Our freshwater pond community includes the mallard ducks, the cattail plants, the fish in the pond, and many other species.   
+                  The populations and community are affected by many non-living factors in the area, such as the water of the pond, the amount of sunlight, the different nutrients of the soil, and even the quality of the air. All these living and non-living components form the ecosystem of freshwater pond.</p>
+                <footer class="blockquote-footer footer_col">
+                  <small>
+                    <cite title="Source Title"></cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">THREATS</h5>
+                <p class="card-text text">
+                  FIRES
+                  Forest Fire, Amazon
+                  Forest on fire in the Amazon, Brazil.
+                  
+                   Fires are a natural and beneficial part of the forest landscape, but they can be a problem when they occur in the wrong place, at the wrong frequency or at the wrong severity. Each year, millions of acres of forest around the world are destroyed or degraded by fire. The same amount is lost to logging and agriculture combined. Fire is often used as a way to efficiently and inexpensively clear land for other uses such as planting crops. These fires not only alter the structure and composition of forests, but they can also open up the forests to invasive species, threaten biological diversity, alter water cycles and soil fertility, and destroy the livelihoods of the people who live in and around the forests.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            
+            <div class="card video-fluid">
+              <iframe  src="https://www.youtube.com/embed/rSxew6UCp-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+            <div class="card p-3">
+              <blockquote class="blockquote mb-0 text">
+                <p >
+                  The WWF's Living Planet Report 2020 has found that the world is losing its mammals, birds,
+                   amphibians, reptiles and fish, and with them, the security of ecosystems that have supported 
+                   humanity since it first emerged.
+                   <br>
+                   The biannual assessment by World Wildlife Fund and the Zoological Society of London records 
+                   the decline in vertebrate life. This year’s report, released Wednesday, shows that these animal
+                    communities shrunk on average 68% between 1970 and 2016. Parts of the world are much worse off. 
+                    The tropical Americas have seen animal populations decline 94% in the same period. The size of 
+                    observed animal communities in or near freshwater globally have fallen by 84%.
+                </p>
+                <footer class="blockquote-footer footer_col">
+                  <small class="text-muted">
+                    <cite title="Source Title"></cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">OFFSETTING CARBON EMISSIONS FROM FORESTS</h5>
+                <p class="card-text text">
+                  If carbon emissions from deforestation were taken into account, Brazil and Indonesia would rank in the top 10 of the world’s worst polluters. WWF has a program focus on reducing emissions from deforestation and forest degradation in developing countries and the conservation, sustainable management of forests, and enhancement of forest carbon stocks (called REDD+). These efforts will also address many of the drivers of deforestation and provide incentives for nations to protect their forests while safeguarding the rights of local communities and indigenous peoples.</p>
+                <p class="card-text text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- ///////////////////////////////////////////// -->
+    <section class="section-padding">
+     <div class="container footer" style="background-color:  #3F3F3F; color: white; width: 100%;">
+      <span id="1aboutus"></span>
+        <div class="row padding">
+          <div class="col-md-8 col-sm-6 col-xs-12 col-about text-center">
+                <div class="copyright">
+                  <div id="footer">
+                  <div class="footer-flex-container__mobile">
+                    <ul class="footer-list-category">
+                      <li class="category">About</li>
+                        <li><a data-track-event="Homepages Show|Footer Click|Careers" href="#">Careers</a></li>
+                        <li><a data-track-event="Homepages Show|Footer Click|Contact" href="#">Contact</a></li>
+                        <li><a data-track-event="Homepages Show|Footer Click|News &amp; Press" href="#">News &amp; Press</a></li>
+                        <li><a data-track-event="Homepages Show|Footer Click|Help" href="#">Help</a></li>
+                    </ul>
+                  </div>
+                </div>
+                  <ul class="icons">
+                    <li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+                    <li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+                    <li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+                  </ul>
+                </div>
+            </div>
+            <span id="1singup" style="height: 50px;"></span>
+          <div class="col-md-4 col-sm-6 col-xs-12 ">
+            <form class="form">
+              <div class="form-row">
+                <div class="form-group col-md-6 ">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group md-padding">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group md-padding">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-sign-in">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ////////////////////////////////////////////////////
+     -->
+     <div class="container footer">
+      <footer>
+        
+        <div class="container-fluid padding">	
+          <div class="row text-center">
+            <div class="col-md-4 img-footer">
+              <img  src="6901604_preview.png" class="img-fluid" >
+              <hr class="light">
+              <p>111-222-3333</p>
+              <p>viethung0500@gmail.com</p>
+              <p>Nha Trang street, Khanh Hoa, Vietnam</p>
+            </div>
+            <div class="col-md-4 img-footer">				
+              <hr class="light">
+              <h5>Working hours</h5>
+              <hr class="light">
+              <p>Monday-Friday: 8am - 5pm</p>
+              <p>Weekend: 8am - 12am</p>
+            </div>
+            <div class="col-md-4 img-footer">				
+              <hr class="light">
+              <h5>Services</h5>
+              <hr class="light">
+              <p>Outsourcing</p>
+              <p>Website development</p>
+              <p>Mobile applications</p>
+            </div>
+            <div class="col-12">
+              <hr class="light-100">
+              <h5>&copy; Discovery</h5>
+            </div>
+          </div>
+        </div>
+      </footer>
+      </div>
+      <script src="js.js"></script>
+</body>
+</html>
